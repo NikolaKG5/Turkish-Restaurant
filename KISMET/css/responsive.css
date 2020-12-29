@@ -1,0 +1,55 @@
+/* - SM- small devices*/
+@media( min-width:576px) {
+    .achievements-section .achievements-item h3 {
+        font-size: 50px;
+    }
+}
+
+/* - MD- medium devices*/
+@media( min-width:768px) {
+    .home-section .carousel .carousel-item {
+        padding: 150px 0;
+    }
+    
+    .home-section .carousel .carousel-item caption{
+        width: 55%;
+    }
+
+
+    .home-section .carousel .carousel-item .caption h2 {
+        font-size: 60px;
+        line-height: 5rem;
+        letter-spacing: 1.99px;
+    }
+}
+
+/* - LG- large devices*/
+@media( min-width:992px) {
+    .home-section .carousel .carousel-item {
+        padding: 200px 0;
+    }
+
+    .navbar-light .navbar-nav .nav-link {
+        border-bottom: 2px solid transparent;
+        padding: 20px;
+    }
+
+    .home-section .carousel-indicators {
+        bottom:50px;
+    }
+}
+
+/*- XL- extra large devices*/
+@media( min-width:1200px) {
+    .container {
+        max-width: 1170px;
+    }
+
+    .home-section .carousel .carousel-item {
+        padding: 250px 0;
+    }
+
+    .navbar-light .navbar-nav .nav-item {
+        margin-left: 15px;
+    }
+}
